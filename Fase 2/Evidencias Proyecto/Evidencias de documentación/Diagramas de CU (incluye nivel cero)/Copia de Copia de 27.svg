@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <style>
+    text { font-family: Arial, sans-serif; font-size: 14px; }
+    .actor { font-weight: bold; }
+    .action { font-style: italic; }
+  </style>
+  
+  <!-- Título -->
+  <text x="400" y="30" text-anchor="middle" font-size="20" font-weight="bold">Sistema de Chatbot en Grupos de Discusión</text>
+  
+  <!-- Actor: Usuario registrado -->
+  <circle cx="100" cy="300" r="40" fill="white" stroke="black" />
+  <text x="100" y="360" text-anchor="middle" class="actor">Usuario registrado</text>
+  
+  <!-- Sistema -->
+  <rect x="250" y="50" width="300" height="500" fill="white" stroke="black" />
+  
+  <!-- Acciones -->
+  <ellipse cx="400" cy="100" rx="120" ry="30" fill="white" stroke="black" />
+  <text x="400" y="105" text-anchor="middle" class="action">Integración en grupos</text>
+  
+  <ellipse cx="400" cy="200" rx="120" ry="30" fill="white" stroke="black" />
+  <text x="400" y="205" text-anchor="middle" class="action">Moderación de conversaciones</text>
+  
+  <ellipse cx="400" cy="300" rx="120" ry="30" fill="white" stroke="black" />
+  <text x="400" y="305" text-anchor="middle" class="action">Facilitación de Q&A</text>
+  
+  <ellipse cx="400" cy="400" rx="120" ry="30" fill="white" stroke="black" />
+  <text x="400" y="405" text-anchor="middle" class="action">Promoción de eventos</text>
+  
+  <!-- Conexiones -->
+  <line x1="140" y1="300" x2="280" y2="100" stroke="black" />
+  <line x1="140" y1="300" x2="280" y2="200" stroke="black" />
+  <line x1="140" y1="300" x2="280" y2="300" stroke="black" />
+  <line x1="140" y1="300" x2="280" y2="400" stroke="black" />
+  
+  <!-- Actor: Chatbot -->
+  <circle cx="700" cy="300" r="40" fill="white" stroke="black" />
+  <text x="700" y="360" text-anchor="middle" class="actor">Chatbot</text>
+  
+  <!-- Conexiones Chatbot -->
+  <line x1="660" y1="300" x2="520" y2="100" stroke="black" />
+  <line x1="660" y1="300" x2="520" y2="200" stroke="black" />
+  <line x1="660" y1="300" x2="520" y2="300" stroke="black" />
+  <line x1="660" y1="300" x2="520" y2="400" stroke="black" />
+</svg>
