@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <style>
+    text { font-family: Arial, sans-serif; font-size: 14px; }
+    .title { font-size: 18px; font-weight: bold; }
+    .actor { font-weight: bold; }
+  </style>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" class="title">Sistema de Información de Capacitaciones</text>
+  
+  <!-- System Box -->
+  <rect x="250" y="50" width="300" height="500" fill="none" stroke="black" />
+  
+  <!-- Actors -->
+  <g transform="translate(100, 300)">
+    <circle cx="0" cy="0" r="20" fill="none" stroke="black" />
+    <line x1="0" y1="20" x2="0" y2="60" stroke="black" />
+    <line x1="-20" y1="40" x2="20" y2="40" stroke="black" />
+    <line x1="0" y1="60" x2="-20" y2="100" stroke="black" />
+    <line x1="0" y1="60" x2="20" y2="100" stroke="black" />
+    <text x="0" y="130" text-anchor="middle" class="actor">Usuario Registrado</text>
+  </g>
+  
+  <!-- Actions -->
+  <g transform="translate(250, 100)">
+    <ellipse cx="150" cy="0" rx="140" ry="30" fill="none" stroke="black" />
+    <text x="150" y="5" text-anchor="middle">Visualizar cursos disponibles</text>
+  </g>
+  
+  <g transform="translate(250, 180)">
+    <ellipse cx="150" cy="0" rx="140" ry="30" fill="none" stroke="black" />
+    <text x="150" y="5" text-anchor="middle">Buscar cursos específicos</text>
+  </g>
+  
+  <g transform="translate(250, 260)">
+    <ellipse cx="150" cy="0" rx="140" ry="30" fill="none" stroke="black" />
+    <text x="150" y="5" text-anchor="middle">Inscribirse en un curso</text>
+  </g>
+  
+  <g transform="translate(250, 340)">
+    <ellipse cx="150" cy="0" rx="140" ry="30" fill="none" stroke="black" />
+    <text x="150" y="5" text-anchor="middle">Acceder al contenido del curso</text>
+  </g>
+  
+  <!-- Connections -->
+  <line x1="140" y1="300" x2="250" y2="100" stroke="black" />
+  <line x1="140" y1="300" x2="250" y2="180" stroke="black" />
+  <line x1="140" y1="300" x2="250" y2="260" stroke="black" />
+  <line x1="140" y1="300" x2="250" y2="340" stroke="black" />
+</svg>
