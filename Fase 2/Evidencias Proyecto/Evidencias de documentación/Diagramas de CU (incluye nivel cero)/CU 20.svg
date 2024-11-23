@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <style>
+    text { font-family: Arial, sans-serif; font-size: 14px; }
+    .title { font-size: 18px; font-weight: bold; }
+    .actor { font-weight: bold; }
+  </style>
+  
+  <!-- Título -->
+  <text x="400" y="30" text-anchor="middle" class="title">Sistema de Gestión de Roles de Usuario</text>
+  
+  <!-- Rectángulo del Sistema -->
+  <rect x="250" y="50" width="300" height="500" fill="none" stroke="black" />
+  
+  <!-- Actor -->
+  <g transform="translate(100, 300)">
+    <circle cx="0" cy="0" r="20" fill="none" stroke="black" />
+    <line x1="0" y1="20" x2="0" y2="60" stroke="black" />
+    <line x1="-20" y1="40" x2="20" y2="40" stroke="black" />
+    <line x1="0" y1="60" x2="-20" y2="100" stroke="black" />
+    <line x1="0" y1="60" x2="20" y2="100" stroke="black" />
+    <text x="0" y="130" text-anchor="middle" class="actor">Administrador</text>
+  </g>
+  
+  <!-- Acciones -->
+  <g transform="translate(250, 100)">
+    <ellipse cx="150" cy="0" rx="140" ry="30" fill="none" stroke="black" />
+    <text x="150" y="5" text-anchor="middle">Creación de nuevo rol de usuario</text>
+  </g>
+  
+  <g transform="translate(250, 200)">
+    <ellipse cx="150" cy="0" rx="140" ry="30" fill="none" stroke="black" />
+    <text x="150" y="5" text-anchor="middle">Asignación de roles a usuarios</text>
+  </g>
+  
+  <g transform="translate(250, 300)">
+    <ellipse cx="150" cy="0" rx="140" ry="30" fill="none" stroke="black" />
+    <text x="150" y="5" text-anchor="middle">Modificación de roles existentes</text>
+  </g>
+  
+  <g transform="translate(250, 400)">
+    <ellipse cx="150" cy="0" rx="140" ry="30" fill="none" stroke="black" />
+    <text x="150" y="5" text-anchor="middle">Eliminación de roles de usuario</text>
+  </g>
+  
+  <!-- Conexiones -->
+  <line x1="140" y1="300" x2="250" y2="100" stroke="black" />
+  <line x1="140" y1="300" x2="250" y2="200" stroke="black" />
+  <line x1="140" y1="300" x2="250" y2="300" stroke="black" />
+  <line x1="140" y1="300" x2="250" y2="400" stroke="black" />
+</svg>

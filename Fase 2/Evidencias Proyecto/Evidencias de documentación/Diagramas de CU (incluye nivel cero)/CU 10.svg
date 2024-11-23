@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Título -->
+  <text x="400" y="30" text-anchor="middle" font-size="20" font-weight="bold">Sistema de Acceso a Documentación</text>
+  
+  <!-- Rectángulo principal -->
+  <rect x="200" y="50" width="400" height="500" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Actor -->
+  <g font-size="14">
+    <text x="100" y="300">Usuario registrado</text>
+    
+    <!-- Icono de actor -->
+    <circle cx="130" cy="270" r="20" stroke="black" fill="none"/>
+    <line x1="130" y1="290" x2="130" y2="330" stroke="black"/>
+    <line x1="110" y1="310" x2="150" y2="310" stroke="black"/>
+    <line x1="130" y1="330" x2="110" y2="360" stroke="black"/>
+    <line x1="130" y1="330" x2="150" y2="360" stroke="black"/>
+  </g>
+  
+  <!-- Casos de uso -->
+  <g font-size="12">
+    <ellipse cx="400" cy="120" rx="150" ry="30" fill="none" stroke="black"/>
+    <text x="400" y="125" text-anchor="middle">Acceso directo a la documentación</text>
+    
+    <ellipse cx="400" cy="220" rx="150" ry="30" fill="none" stroke="black"/>
+    <text x="400" y="225" text-anchor="middle">Búsqueda de documentos</text>
+    
+    <ellipse cx="400" cy="320" rx="150" ry="30" fill="none" stroke="black"/>
+    <text x="400" y="325" text-anchor="middle">Filtrado por categoría</text>
+    
+    <ellipse cx="400" cy="420" rx="150" ry="30" fill="none" stroke="black"/>
+    <text x="400" y="425" text-anchor="middle">Acceso offline a la documentación</text>
+  </g>
+  
+  <!-- Líneas de conexión -->
+  <g stroke="black" stroke-width="1">
+    <line x1="150" y1="270" x2="250" y2="120"/>
+    <line x1="150" y1="270" x2="250" y2="220"/>
+    <line x1="150" y1="270" x2="250" y2="320"/>
+    <line x1="150" y1="270" x2="250" y2="420"/>
+  </g>
+</svg>

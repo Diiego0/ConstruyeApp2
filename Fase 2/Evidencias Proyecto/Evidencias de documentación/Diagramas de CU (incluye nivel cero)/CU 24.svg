@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <style>
+    text { font-family: Arial, sans-serif; font-size: 14px; }
+    .actor { font-weight: bold; }
+    .action { font-style: italic; }
+  </style>
+  
+  <!-- Título -->
+  <text x="400" y="30" text-anchor="middle" font-size="20" font-weight="bold">Sistema de Información de un Chatbot</text>
+  
+  <!-- Actor: Desarrollador del Chatbot -->
+  <circle cx="100" cy="100" r="40" fill="white" stroke="black" />
+  <text x="100" y="160" text-anchor="middle" class="actor">Desarrollador del Chatbot</text>
+  
+  <!-- Sistema -->
+  <rect x="250" y="50" width="300" height="500" fill="white" stroke="black" />
+  
+  <!-- Acciones -->
+  <ellipse cx="400" cy="100" rx="120" ry="30" fill="white" stroke="black" />
+  <text x="400" y="105" text-anchor="middle" class="action">Diseñar interfaz intuitiva</text>
+  
+  <ellipse cx="400" cy="180" rx="120" ry="30" fill="white" stroke="black" />
+  <text x="400" y="185" text-anchor="middle" class="action">Implementar navegación clara</text>
+  
+  <ellipse cx="400" cy="260" rx="120" ry="30" fill="white" stroke="black" />
+  <text x="400" y="265" text-anchor="middle" class="action">Crear estética visual</text>
+  
+  <ellipse cx="400" cy="340" rx="120" ry="30" fill="white" stroke="black" />
+  <text x="400" y="345" text-anchor="middle" class="action">Proporcionar retroalimentación</text>
+  
+  <!-- Conexiones -->
+  <line x1="140" y1="100" x2="280" y2="100" stroke="black" />
+  <line x1="140" y1="100" x2="280" y2="180" stroke="black" />
+  <line x1="140" y1="100" x2="280" y2="260" stroke="black" />
+  <line x1="140" y1="100" x2="280" y2="340" stroke="black" />
+  
+  <!-- Actor: Usuario -->
+  <circle cx="700" cy="300" r="40" fill="white" stroke="black" />
+  <text x="700" y="360" text-anchor="middle" class="actor">Usuario</text>
+  
+  <!-- Conexiones Usuario -->
+  <line x1="660" y1="300" x2="520" y2="100" stroke="black" />
+  <line x1="660" y1="300" x2="520" y2="180" stroke="black" />
+  <line x1="660" y1="300" x2="520" y2="260" stroke="black" />
+  <line x1="660" y1="300" x2="520" y2="340" stroke="black" />
+</svg>

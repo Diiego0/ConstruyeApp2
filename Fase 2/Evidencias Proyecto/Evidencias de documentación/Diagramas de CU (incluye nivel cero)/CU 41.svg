@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <style>
+    text { font-family: Arial, sans-serif; font-size: 14px; }
+    .actor { font-weight: bold; }
+    .action { font-style: italic; }
+  </style>
+  
+  <!-- Título -->
+  <text x="400" y="30" text-anchor="middle" font-size="20" font-weight="bold">Dashboard de Inicio del Chatbot</text>
+  
+  <!-- Actor: Administrador del chatbot -->
+  <circle cx="100" cy="300" r="40" fill="white" stroke="black" stroke-width="2"/>
+  <text x="100" y="305" text-anchor="middle" class="actor">Administrador del chatbot</text>
+  
+  <!-- Rectángulo principal -->
+  <rect x="200" y="50" width="400" height="500" fill="white" stroke="black" stroke-width="2"/>
+  
+  <!-- Acciones -->
+  <ellipse cx="400" cy="120" rx="180" ry="30" fill="white" stroke="black" stroke-width="2"/>
+  <text x="400" y="125" text-anchor="middle" class="action">Visualizar métricas de rendimiento</text>
+  
+  <ellipse cx="400" cy="220" rx="180" ry="30" fill="white" stroke="black" stroke-width="2"/>
+  <text x="400" y="225" text-anchor="middle" class="action">Ver estadísticas de usuarios</text>
+  
+  <ellipse cx="400" cy="320" rx="180" ry="30" fill="white" stroke="black" stroke-width="2"/>
+  <text x="400" y="325" text-anchor="middle" class="action">Revisar valoraciones y feedback</text>
+  
+  <ellipse cx="400" cy="420" rx="180" ry="30" fill="white" stroke="black" stroke-width="2"/>
+  <text x="400" y="425" text-anchor="middle" class="action">Ver resumen de KPIs del proyecto</text>
+  
+  <!-- Líneas de conexión -->
+  <line x1="140" y1="300" x2="220" y2="120" stroke="black" stroke-width="2"/>
+  <line x1="140" y1="300" x2="220" y2="220" stroke="black" stroke-width="2"/>
+  <line x1="140" y1="300" x2="220" y2="320" stroke="black" stroke-width="2"/>
+  <line x1="140" y1="300" x2="220" y2="420" stroke="black" stroke-width="2"/>
+</svg>
